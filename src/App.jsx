@@ -5,6 +5,8 @@ import ContactPage from "./pages/ContactPage";
 import CoursesPage from "./pages/CoursesPage";
 import './style/Pages.css';
 import AdmissionPage from "./pages/AdmissionPage";
+import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return(
@@ -14,10 +16,12 @@ const App = () => {
             <Route path="/" element={<HomePage/>}/>
             //<Route path="/home" element= {<HomePage/>}/>
             <Route path="/about" element= {<AboutPage/>}/>
-            <Route path="/course" element={<CoursesPage/>}/>
+            <Route path="/courses" element={<CoursesPage/>}/>
             <Route path="/contact" element={<ContactPage/>}/>
-            <Route path="/admission" element={<AdmissionPage/>}/>
+            <Route path="/admissions" element={<AdmissionPage/>}/>
         </Routes>
+        <ChatbotComponent/>
+        <Footer/>
       </Router>
     </div>
   )

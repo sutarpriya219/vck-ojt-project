@@ -4,15 +4,15 @@ const AdmissionPage = () => {
     return(
         <div>
             <Header/>
-            <div className="main1">
-                <div className="main2">
-                    <h1 style={{color:'blue'}}><center>Admission at Vivekanand College</center></h1>
+            <div className="main">
+                <div className="main-layout">
+                    <h1 className="heading"><center>Admission at Vivekanand College</center></h1>
                     <p>Welcome to the Admissions page of Vivekanand College! We are delighted you're considering joining our vibrant academic community. Our admission process is designed to be straightforward and accessible.</p>
 
                     <p>Please review the eligibility criteria and key dates below for the upcoming academic year. For any queries, feel free to contact our admissions office.</p>
 
                     <h2>Eligiblity criteria for Undergraduate programs</h2>
-                    <table>
+                    <table className="t1">
                     <tr>
                     <th>Program</th>
                     <th>Minimum Qualification</th>
