@@ -23,7 +23,7 @@ const HomePage = () => {
                     <p>At Vivekanand College, we believe in a vibrant learning environment that extends beyond textbooks. Our state-of-the-art facilities, experienced faculty, and diverse student community create a unique ecosystem where curiosity thrives and future leaders are shaped.</p>
             
 
-                    <h1>Why Choose Vivekanand College?</h1>
+                    <h2>Why Choose Vivekanand College?</h2>
                     <ul>
                         <li><strong>**Legacy of Excellence:</strong>** Decades of commitment to quality education.</li>
                         <li><strong>**Experienced Faculty:</strong>** Learn from renowned experts and passionate educators.</li>
@@ -32,7 +32,7 @@ const HomePage = () => {
                         <li><strong>**Strong Placements:</strong>** Excellent career opportunities with leading companies.</li>
                     </ul>
             
-                    <h1>Campus Life & Facilities</h1>
+                    <h2>Campus Life & Facilities</h2>
                     <div id="img1">
                         <img src="https://vivekanandcollege.ac.in/uploads/home/WhatsApp%20Image%202025-05-15%20at%2010.31.26%20AM.jpeg" className="img2"/>           
                         <img src="https://vck-ojt.vercel.app/assets/campus-life-Crkero7B.jpg" className="img3"/>
