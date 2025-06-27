@@ -14,7 +14,7 @@ const HomePage = () => {
                         <div className="demo5">
                             <h1>Welcome to Vivekanand <br/>College! </h1>
                             <p id="p1">Your Journey to excellence starts here</p>
-                            <a href="/admissions" id="add">Apply Now!</a>
+                            <Link to="/admissions"><button id="c1">Apply Now!</button></Link>
                         </div>
                     </div>
                        
